@@ -1,0 +1,13 @@
+#Problem 7
+num = list(range(1,1001))
+mult = []
+for i in range (0,1000):
+  if num[i]%3 is 0:
+    mult.append(num[i])
+  else:
+    if num[i]%5 is 0:
+      mult.append(num[i])
+sum = 0
+for i in range(len(mult)):
+  sum += mult[i]
+print(sum)
